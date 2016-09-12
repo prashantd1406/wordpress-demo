@@ -1,0 +1,127 @@
+/*
+Theme Name: YS Magazine
+Layout: Content-Sidebar
+*/
+
+
+#content {
+    height: auto;
+    background: rgb(209,219,189);
+}
+
+@media screen and (min-width: 1160px){
+        .content-area {
+                float: left;
+                margin-left: -380px;
+                padding-left: 380px;
+                width: 100%;
+                height: auto;
+        }
+}
+
+.site-content .site-main {
+    height: auto;
+    background: #fff;
+}
+
+.site-content .widget-area {
+        background: rgb(209,219,189);
+	overflow: hidden;
+	width: 380px;
+        padding: 10px;
+        padding: 1rem;
+        height: auto;
+}
+@media screen and (max-width: 1159px) {
+        .site-content .widget-area {
+                position: relative;
+                overflow: hidden;
+                width: 100%;
+                max-width: 1200px;
+                margin: 10px auto;
+                margin: 1rem auto;
+        }
+}
+.site-footer {
+	clear: both;
+	width: 100%;
+}
+
+.entry-header,
+.entry-footer,
+.entry-content,
+.posts-navigation,
+.paging-navigation {
+        font-family: 'Vollkorn', sans-serif;
+        display: block;
+        clear: both;
+        position: relative;
+        max-width: 780px;
+        max-width: 78rem;
+        padding: 10px;
+        padding: 1rem;
+        margin: 0 auto;
+}
+
+@media screen and (max-width: 1159px) {
+    .entry-content {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+.entry-meta,
+.category-list,
+.cat-links,
+.tags-links {
+        font-family: 'Vollkorn', sans-serif;
+        width: 50%;
+        float: left;
+        border: 2px solid rgb(62,96,111);
+        border-radius: 25px;
+        padding: 5px 10px;
+        padding: 0.5rem 1rem;
+        background: rgb(209,219,189);
+        font-size: 16px;
+        font-size: 1.6rem;
+}
+
+.entry-meta a,
+.category-list a,
+.cat-links a,
+.tags-links a {
+        font-weight: 700;
+        color: rgb(25,52,65);
+}
+
+.entry-meta,
+.cat-links {
+        margin-right: 10px;
+}
+.category-list,
+.tags-links {
+        margin-right: -10px;
+}
+
+@media screen and (max-width: 650px){
+        .entry-meta,
+        .category-list,
+        .cat-links,
+        .tags-links {
+            float: none;
+            width: 100%;
+            display: block;
+            clear: both;
+            margin-right: 0;
+        }
+        .entry-meta,
+        .cat-links {
+            margin-bottom: 10px;
+        }
+}
+
+.entry-footer .edit-link {
+        display: block;
+        clear: both;
+        margin: 50px 0 0 10px;
+}
